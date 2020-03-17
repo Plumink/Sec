@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input,button{
+    border: 1px solid #bbb8b9;
+}
+
+/* 整体的 */
+.total{
+    background: url("./images/bac.jpg") no-repeat;
+}
+
+/* 检测表单 */
+.right{
+    width: 483px;
+    height: 683px;
+    background-color: rgb(255, 255, 255, 0.9);
+    border-radius: 25px;
+    position: relative;
+    left: 50vw;
+    top:7vh
+}
+.little{
+    padding-left:40px;
+    padding-top:50px ;
+}
+
+/* 表单提示 */
+.t1{
+    height: 6vh;
+    margin-left: 4vw;
+    z-index: 1000;
+}
+#tip1{
+    display: none;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    padding-top: 2vh;
+    color: #e9e3e5;
+    position: absolute;
+    top: 16.6vh;
+}
+#tip2{
+    z-index: 100;
+    display: none;
+    font-size: 12px;
+    color: #e9e3e5;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    position: relative;
+    bottom: 1vh;
+}
+
+/* 小部件 */
+.one{
+    width:90%;
+    height: 10vh;
+    z-index: 1;
+}
+
+/* input用户名 */
+.tongyi{
+    height: 30px;
+    width: 20vw;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.tonger{
+    height: 30px;
+    width: 13vw;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.btn{
+    height: 30px;
+    width: 6vw;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+}
+
+/* 错误提示 */
+.Ver{
+    color: red;
+    font-size: 12px;
+    margin-left: 4vw;
+}
+
+/* 注册 */
+.last{
+    width: 20vw;
+    height: 7vh;
+    text-align: center;
+    background-color: #2e58ff;
+    margin-left: 3vw;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
